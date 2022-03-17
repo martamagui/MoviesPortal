@@ -1,6 +1,14 @@
 # AngularMovieApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+</br></br>
+<img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" width="70%">
+</br>
+
+Project generated in order to practice Angular. This aplication will display a movie list wich has been requested to "https://www.themoviedb.org/".
+
+For more info: [https://www.themoviedb.org/documentation/api](https://www.themoviedb.org/documentation/api)
+
+</br></br></br>
 
 ## Development server
 
@@ -24,4 +32,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
