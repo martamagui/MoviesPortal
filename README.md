@@ -2,13 +2,19 @@
 
 </br></br>
 <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" width="70%">
-</br>
+</br></br></br>
 
 Project generated in order to practice Angular. This aplication will display a movie list wich has been requested to "https://www.themoviedb.org/".
 
 For more info: [https://www.themoviedb.org/documentation/api](https://www.themoviedb.org/documentation/api)
 
 </br></br></br>
+
+## Before using this app
+
+If you want to take a look in how this app works.Firstly, you need to request an api key to theMovieDB and place it here [src/app/shared/service/movies.service.ts](https://github.com/martamagui/MoviesPortal/blob/master/src/app/shared/service/movies.service.ts) 
+
+</br></br>
 
 ## Development server
 
