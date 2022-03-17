@@ -12,7 +12,7 @@ For more info: [https://www.themoviedb.org/documentation/api](https://www.themov
 
 ## Before using this app
 
-If you want to take a look in how this app works.Firstly, you need to request an api key to theMovieDB and place it here [src/app/shared/service/movies.service.ts](https://github.com/martamagui/MoviesPortal/blob/master/src/app/shared/service/movies.service.ts) 
+If you want to take a look in how this app works. Firstly, you need to request an api key to theMovieDB and place it here [src/app/shared/service/movies.service.ts](https://github.com/martamagui/MoviesPortal/blob/master/src/app/shared/service/movies.service.ts)
 
 </br></br>
 
