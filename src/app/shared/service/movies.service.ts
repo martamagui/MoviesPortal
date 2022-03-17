@@ -27,4 +27,12 @@ export class MoviesService {
     let completeurl: string = this.linkAPI+id+'?'+this.authAPI+this.languageAPI;
     return this.httpClient.get<any>(completeurl)
   }
+  public getUpcoming(page:string):Observable<any>{
+    let completeurl: string = this.linkAPI+'upcoming?'+this.authAPI+this.languageAPI+'&page='+page;
+    return this.httpClient.get<any>(completeurl)
+  }
+  public getNowPlating(page:string):Observable<any>{
+    let completeurl: string = this.linkAPI+'/now_playing?'+this.authAPI+this.languageAPI+'&page='+page;
+    return this.httpClient.get<any>(completeurl)
+  }
 }

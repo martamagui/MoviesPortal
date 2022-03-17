@@ -1,1 +1,4 @@
-<p>movies-list works!</p>
+<main class="movies-container">
+    <h1>Top Rated Movies</h1>
+    <app-movieCard *ngFor="let movie if movies" [movie]="movie"></app-movieCard>
+</main>
