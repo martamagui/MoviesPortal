@@ -1,4 +1,4 @@
-import { Movie } from './../../shared/interfaces/movie';
+import { MovieListResult } from '../../shared/interfaces/movie-list-result';
 import { Component, OnInit } from '@angular/core';
 import { MoviesService } from 'src/app/shared/service/movies.service';
 
