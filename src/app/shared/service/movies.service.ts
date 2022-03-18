@@ -15,7 +15,7 @@ export class MoviesService {
     //
     //TODO Place your auth key down bellow
     //
-    this.authAPI = 'api_key=4d79757be9ee2bdc2b4ec9f6e4522ae6';
+    this.authAPI = 'api_key= YOUR API AUTH';
     this.languageAPI = '&language=en-US';
   }
 
