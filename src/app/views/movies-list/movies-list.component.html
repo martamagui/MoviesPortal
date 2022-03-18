@@ -1,4 +1,6 @@
-<main class="movies-container">
+<main>
     <h1>Top Rated Movies</h1>
-    <app-movie-card *ngFor="let movie of  movieList" [movie]="movie"></app-movie-card>
+    <div class="movies-container">
+        <app-movie-card *ngFor="let movie of  movieList" [movie]="movie"></app-movie-card>
+    </div>
 </main>

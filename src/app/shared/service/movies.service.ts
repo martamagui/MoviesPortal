@@ -15,12 +15,13 @@ export class MoviesService {
     //
     //TODO Place your auth key down bellow
     //
-    this.authAPI = 'api_key= YOUR API AUTH';
+    this.authAPI = 'api_key=4d79757be9ee2bdc2b4ec9f6e4522ae6';
     this.languageAPI = '&language=en-US';
   }
 
   public getTopRated(page:string):Observable<any>{
     let completeurl: string = this.linkAPI+'top_rated?'+this.authAPI+this.languageAPI+'&page='+page;
+    console.log(completeurl)
     return this.httpClient.get<any>(completeurl)
   }
   public getDetail(id:string):Observable<any>{

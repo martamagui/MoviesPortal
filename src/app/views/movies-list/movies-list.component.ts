@@ -18,6 +18,7 @@ export class MoviesListComponent implements OnInit {
     this.movieService.getTopRated('1').subscribe(
       (data) => {
         this.movieList = data.results;
+        console.log('Data ',  data.results);
       },
       (error: Error) => {
         console.log('Error: ', error);
